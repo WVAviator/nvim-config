@@ -20,5 +20,10 @@ cmp.setup({
         fallback()
       end
     end),
+
+    ['<CR>'] = cmp.mapping.confirm({
+      behavior = cmp.ConfirmBehavior.Replace,
+      select = true,
+    }),
   },
 })
