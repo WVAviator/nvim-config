@@ -42,20 +42,23 @@ return require('packer').startup(function(use)
 
   use "lukas-reineke/indent-blankline.nvim"
 
-  use('github/copilot.vim')
+  use 'github/copilot.vim'
 
 	use {
-		'nvim-tree/nvim-tree.lua',
-		requires = {
-			'nvim-tree/nvim-web-devicons', -- optional
-		},
+	'nvim-tree/nvim-tree.lua',
+			requires = {
+					'nvim-tree/nvim-web-devicons', -- optional
+			},
 	}
 
+  use 'lewis6991/gitsigns.nvim'
+  use 'romgrk/barbar.nvim'
+
 	use {
-		"klen/nvim-test",
-		config = function()
-			require('nvim-test').setup()
-		end
+			"klen/nvim-test",
+			config = function()
+					require('nvim-test').setup()
+			end
 	}
 
 end)
