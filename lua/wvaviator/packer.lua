@@ -42,8 +42,6 @@ return require('packer').startup(function(use)
 
   use "lukas-reineke/indent-blankline.nvim"
 
-  use 'github/copilot.vim'
-
 	use {
 	'nvim-tree/nvim-tree.lua',
 			requires = {
@@ -75,4 +73,5 @@ return require('packer').startup(function(use)
   use('jose-elias-alvarez/null-ls.nvim')
   use('MunifTanjim/prettier.nvim')
 
+  use 'github/copilot.vim'
 end)

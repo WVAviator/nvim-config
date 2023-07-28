@@ -7,7 +7,6 @@ require("nvim-tree").setup({
     git =  {
         enable = true,
         ignore = false,
-        show_root = true,
     },
 })
 
@@ -15,3 +14,4 @@ vim.keymap.set("n", "<leader>tt", vim.cmd.NvimTreeToggle)
 vim.keymap.set("n", "<leader>tc", vim.cmd.NvimTreeClose)
 vim.keymap.set("n", "<leader>tr", vim.cmd.NvimTreeRefresh)
 vim.keymap.set("n", "<leader>tf", vim.cmd.NvimTreeFindFile)
+
