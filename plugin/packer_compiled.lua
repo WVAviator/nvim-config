@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/Users/wvaviator/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["autoclose.nvim"] = {
+    loaded = true,
+    path = "/Users/wvaviator/.local/share/nvim/site/pack/packer/start/autoclose.nvim",
+    url = "https://github.com/m4xshen/autoclose.nvim"
+  },
   ["barbar.nvim"] = {
     loaded = true,
     path = "/Users/wvaviator/.local/share/nvim/site/pack/packer/start/barbar.nvim",
@@ -180,11 +185,6 @@ _G.packer_plugins = {
     path = "/Users/wvaviator/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
-  ["toggleterm.nvim"] = {
-    loaded = true,
-    path = "/Users/wvaviator/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
-    url = "https://github.com/akinsho/toggleterm.nvim"
-  },
   ["trouble.nvim"] = {
     loaded = true,
     path = "/Users/wvaviator/.local/share/nvim/site/pack/packer/start/trouble.nvim",
@@ -194,11 +194,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/wvaviator/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
-  },
-  ["vim-fugitive"] = {
-    loaded = true,
-    path = "/Users/wvaviator/.local/share/nvim/site/pack/packer/start/vim-fugitive",
-    url = "https://github.com/tpope/vim-fugitive"
   }
 }
 

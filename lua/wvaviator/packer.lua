@@ -61,12 +61,14 @@ return require('packer').startup(function(use)
 			end
 	}
 
-  use "akinsho/toggleterm.nvim"
+  -- use "akinsho/toggleterm.nvim"
   use {
       'folke/trouble.nvim',
       requires = {
           'nvim-tree/nvim-web-devicons'
       }
   }
+
+  use 'm4xshen/autoclose.nvim'
 
 end)
