@@ -30,3 +30,7 @@ null_ls.setup({
     end
   end,
 })
+
+vim.cmd([[
+    autocmd BufWritePost *.rs :silent! !cargo fmt
+]])
