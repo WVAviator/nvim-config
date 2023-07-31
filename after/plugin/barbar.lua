@@ -22,7 +22,7 @@ map('n', '<A-p>', '<Cmd>BufferPin<CR>', opts)
 
 map('n', '<A-c>', '<Cmd>BufferClose<CR>', opts)
 
-map('n', '<leader>bp', '<Cmd>BufferPick<CR>', opts)
+-- map('n', '<leader>bp', '<Cmd>BufferPick<CR>', opts)
 
 require('barbar').setup {
     auto_hide = true,

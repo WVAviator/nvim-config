@@ -9,9 +9,3 @@ require("nvim-tree").setup({
         ignore = false,
     },
 })
-
-vim.keymap.set("n", "<leader>tt", vim.cmd.NvimTreeToggle)
-vim.keymap.set("n", "<leader>tc", vim.cmd.NvimTreeClose)
-vim.keymap.set("n", "<leader>tr", vim.cmd.NvimTreeRefresh)
-vim.keymap.set("n", "<leader>tf", vim.cmd.NvimTreeFindFile)
-
