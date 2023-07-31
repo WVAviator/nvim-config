@@ -46,5 +46,11 @@ wk.register({
     u = {
         name = "Undotree",
         t = { "<cmd>UndotreeToggle<cr>", "Toggle Undotree" }
+    },
+    c = {
+        name = "Copilot",
+        p = { "<cmd>Copilot panel<cr>", "Open Panel" },
+        e = { "<cmd>Copilot enable<cr>", "Enable Copilot" },
+        d = { "<cmd>Copilot disable<cr>", "Disable Copilot" }
     }
 }, { prefix = "<leader>" })

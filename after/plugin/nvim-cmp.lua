@@ -14,12 +14,13 @@ cmp.setup({
             fallback()
         end
     end),
-    -- <Tab> is being used by copilot - pressing Tab should close cmp then
-    -- fallback to copilot functionality
     ['<Tab>'] = cmp.mapping(function(fallback)
-        if cmp.visible() then
-            cmp.abort()
+        cmp.abort()
+        
+        if vim.b._copilot_suggestion ~= nil then
+            vim.api.nvim_feedkeys(vim.fn["copilot#Accept"](), "i", true)
         end
+
         fallback()
     end),
 
