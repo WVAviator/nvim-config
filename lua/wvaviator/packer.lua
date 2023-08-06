@@ -18,6 +18,7 @@ return require('packer').startup(function(use)
   use('mbbill/undotree')
   use('tpope/vim-fugitive')
   use('numToStr/Comment.nvim')
+  use('norcalli/nvim-colorizer.lua')
 
   use {
 	  'VonHeikemen/lsp-zero.nvim',
